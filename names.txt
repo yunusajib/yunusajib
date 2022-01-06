@@ -1,2 +1,8 @@
 Yunusa Jibrin
+<<<<<<< HEAD
 Usman Umar mohd
+=======
+zainab idris
+Muhammad Fauza
+Ramlat Yunus
+>>>>>>> address
