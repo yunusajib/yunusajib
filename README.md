@@ -1,159 +1,285 @@
 # Hi, I'm Yunusa Jibrin 👋
 
-**Machine Learning Engineer | Computer Vision & NLP Specialist | AI Research Enthusiast**
+**ML Engineer building production-ready AI systems that solve real business problems**
 
-📍 Based in Newcastle upon Tyne, UK | 🇬🇧 Global Talent Visa  
-🔬 Building production-ready AI systems that solve real-world problems
-
----
-
-## 🚀 About Me
-
-I'm a Machine Learning Engineer with **5+ years of experience** in AI research and development, specializing in **Computer Vision** and **Natural Language Processing**. Currently contributing to commercial ML projects while actively building open-source AI solutions.
-
-- 🎓 **MSc in Advanced Computer Science** from University of Sussex (Merit)
-- 🏆 **UK Global Talent Visa** recipient in Digital Technology
-- 📰 Research featured in **national media** ([Vanguard News](https://www.vanguardngr.com/2024/03/uk-based-nigerian-researcher-invents-ai-tool-to-identify-bandits/))
-- 💼 Currently: Computer Vision Engineer at **Digisoft CV Ltd**
-- 🌱 Learning: **MLOps**, **LLM Fine-tuning**, **Production ML Systems**
+📍 Newcastle upon Tyne, UK | 🇬🇧 Global Talent Visa Holder | 💼 Open to ML Engineering roles
 
 ---
 
-## 💻 Tech Stack
+## 🎯 What I Do
 
-```python
-skills = {
-    "languages": ["Python", "SQL", "JavaScript"],
-    "ml_frameworks": ["TensorFlow", "Keras", "PyTorch", "Scikit-learn"],
-    "computer_vision": ["OpenCV", "CNNs", "Vision Transformers"],
-    "nlp": ["Transformers", "LangChain", "Hugging Face", "RAG Systems"],
-    "vector_dbs": ["ChromaDB", "Semantic Search", "Embeddings"],
-    "deployment": ["Streamlit", "Gradio", "FastAPI", "Docker"],
-    "cloud": ["Google Colab (GPU)", "AWS", "GCP"],
-    "tools": ["Git", "Jupyter", "Linux", "VS Code"]
-}
-```
+I build **production ML systems** from scratch—not tutorials, not demos—**deployable systems** that handle real-world edge cases, biased data, and out-of-distribution inputs.
+
+**My approach:**
+- ✅ Start with business problem, not model architecture
+- ✅ Debug systematically (class collapse? overfitting? distribution shift?)
+- ✅ Validate rigorously (test metrics ≠ production performance)
+- ✅ Deploy honestly (document failures + lessons learned)
+
+**Recent impact:**
+- 📄 **95% time reduction** in contract review (2 hours → 6 minutes) with RAG system
+- 🎯 **+38% accuracy improvement** in facial attribute prediction through systematic iteration
+- 🛣️ **87% mAP detection** for road infrastructure monitoring (YOLOv8 + ONNX optimization)
+- 🔍 **92% retrieval precision** in multi-document Q&A system
 
 ---
 
 ## 🔥 Featured Projects
 
-### 🧠 [QwenRAG-PDF-Search](https://github.com/yunusajib/QwenRAG-PDF-Search)
-**Production-grade RAG system for intelligent document Q&A**
+### 1. [Contract Intelligence System](https://github.com/yunusajib/contract-intelligence-system) 🏆
+**Multi-agent AI for legal contract analysis | 40+ hours/week → under 1 minute**
 
-- 📄 Natural language queries across multiple PDFs with automatic citations
-- ⚡ **10-15x performance boost** through GPU optimization (2-5s query time)
-- 🎯 Built with LangChain, ChromaDB, Qwen2.5, and Gradio
-- 🚀 Deployed on Google Colab with complete documentation
+Production-ready system analyzing contracts in **<60 seconds** with 95%+ accuracy. Deployed on AWS ECS with 24/7 uptime.
 
-**Tech:** `Python` `LangChain` `ChromaDB` `Transformers` `RAG` `Gradio`
+**What makes it stand out:**
+- 🤖 4 specialized AI agents (Parser, Legal, Risk, Coordinator)
+- ⚖️ Real-time risk scoring (0-10 scale) with action items
+- 💰 **Business impact:** $200K/year savings for 5-person legal team
+- ☁️ Production deployment: AWS ECS Fargate + systemd
 
-[📺 Watch Demo](https://youtu.be/v-ciwaRasvU) | [📖 Read Docs](https://github.com/yunusajib/QwenRAG-PDF-Search#readme)
+**Tech:** CrewAI • GPT-4 • FastAPI • AWS ECS • Docker
 
----
-
-### 🎭 [Multi-Task Facial Attribute Prediction](https://github.com/yunusajib/multitask-age-detection-ml)
-**Deep learning system for facial attribute classification**
-
-- 🎯 Achieved **84.9% gender accuracy** and **70.3% ethnicity accuracy**
-- 🔧 Solved critical issues: class collapse and severe overfitting
-- 📊 Comprehensive evaluation of test vs. production performance
-- 🌐 Live deployment via Streamlit
-
-**Tech:** `TensorFlow` `Keras` `OpenCV` `Deep Learning` `Streamlit`
-
-[🚀 Try Live Demo](https://age-detection-ml.streamlit.app/) | [📖 Read More](https://github.com/yunusajib/multitask-age-detection-ml#readme)
+🌐 [Try Live Demo](http://98.92.51.141:8000) • 📚 [Documentation](https://github.com/yunusajib/contract-intelligence-system)
 
 ---
 
-### 🔬 Vision Transformer Research (Academic)
-**AI-powered security identification system**
+### 2. [Pharma AI Platform](https://github.com/yunusajib/pharma-ai-platform)
+**Real-time compliance enforcement for pharmaceutical sales | 100% FDA compliance**
 
-- 🏆 Gained **national media recognition** in Nigeria
-- 📰 Featured in [Vanguard News](https://www.vanguardngr.com/2024/03/uk-based-nigerian-researcher-invents-ai-tool-to-identify-bandits/) and multiple publications
-- 🎓 Conducted at Federal College of Education (Technical), Potiskum
-- 🧠 Novel application of Vision Transformers (ViT) for real-world security
+AI assistant providing instant answers during physician interactions with **real-time off-label detection** (<1 second blocking).
 
-**Tech:** `Vision Transformers` `PyTorch` `Deep Learning` `Research`
+**Key engineering:**
+- 🛡️ 3-layer compliance detection (keyword + pattern + context)
+- ⚡ 95% faster Q&A (30 min → 8 seconds)
+- 🎯 0 violations in 500+ test queries
+- 🔒 Multi-agent architecture (Sales + Compliance)
 
----
+**Tech:** OpenAI GPT-4 • FastAPI • React • CrewAI • Vercel • Render
 
-## 📊 GitHub Stats
-
-![Yunusa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yunusajib&show_icons=true&theme=radical&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yunusajib&layout=compact&theme=radical)
+🚀 [View Project](https://github.com/yunusajib/pharma-ai-platform)
 
 ---
 
-## 🎯 Current Focus
+### 3. [YOLO Pothole Detection API](https://github.com/yunusajib/yolo-pothole-detector)
+**Production CV system for road infrastructure | 95% faster than manual inspection**
 
-- 🔨 Building **MLOps pipeline** for model monitoring and deployment
-- 📚 Exploring **LLM fine-tuning** and **prompt engineering** techniques
-- 🚀 Contributing to **open-source** ML projects
-- 📖 Learning **production ML systems** and **scalable architectures**
-- 🎓 Preparing for **advanced certifications** in cloud ML platforms
+Real-time pothole detection with **87% mAP** in <150ms per image. Optimized PyTorch → ONNX (3x speedup).
+
+**Technical depth:**
+- 🎯 Custom-trained YOLOv8 (3,500 images, 12K+ annotations)
+- ⚡ ONNX optimization: 350ms → 120ms inference
+- ☁️ AWS ECS Fargate deployment
+- 💰 Cost-aware: $30/month (vs $500 GPU instance)
+
+**Tech:** YOLOv8 • ONNX Runtime • FastAPI • Docker • AWS ECS
+
+🌐 [Try API](http://13.220.63.113:8000/docs) • 📖 [Documentation](https://github.com/yunusajib/yolo-pothole-detector)
 
 ---
 
-## 📝 Latest Blog Posts & Articles
+### 4. [QwenRAG PDF Search](https://github.com/yunusajib/QwenRAG-PDF-Search)
+**Enterprise document intelligence | 95% time reduction in document search**
 
-<!-- BLOG-POST-LIST:START -->
-- 🎥 [RAG System Demo: PDF Q&A with AI](https://youtu.be/v-ciwaRasvU)
-- 📰 [AI Tool for Security - Featured in Vanguard News](https://www.vanguardngr.com/2024/03/uk-based-nigerian-researcher-invents-ai-tool-to-identify-bandits/)
-<!-- BLOG-POST-LIST:END -->
+RAG system querying multiple PDFs with **92% retrieval precision** and exact page citations.
+
+**Engineering highlights:**
+- 📚 Multi-document reasoning across 50+ PDFs
+- 🎯 Hybrid search (semantic + keyword) for 8% better precision
+- 💡 Fixed prompt engineering: 72% → 94% citation accuracy
+- 🔧 Systematic evaluation (100-query test set)
+
+**Tech:** Qwen2.5 • LangChain • ChromaDB • Gradio
+
+📊 [View Project](https://github.com/yunusajib/QwenRAG-PDF-Search)
+
+---
+
+### 5. [Multi-Task Facial Attribute Prediction](https://github.com/yunusajib/multitask-age-detection-ml)
+**Production deep learning | +38% accuracy through systematic debugging**
+
+Predicts age, gender, ethnicity simultaneously. **Fixed critical class collapse** (2/5 → 5/5 classes) and eliminated overfitting (4x → 1.5x gap).
+
+**What I learned:**
+- 🐛 Debugged class collapse: Added class weights → +221% F1 improvement
+- 🔧 Eliminated overfitting: Dropout + BatchNorm → 63% gap reduction
+- ⚠️ Honest evaluation: Documented test-to-production gap (85% → 30%)
+
+**Tech:** TensorFlow • Keras • OpenCV • Streamlit
+
+🎭 [View Project](https://github.com/yunusajib/multitask-age-detection-ml)
+
+---
+
+## 💡 What Makes My Work Different
+
+Most ML portfolios show tutorial projects. Mine show **production engineering**:
+
+| What Others Show | What I Show |
+|------------------|-------------|
+| "Built a chatbot" | "Built RAG system with 92% retrieval precision, fixed citation accuracy 72% → 94%" |
+| "Trained YOLO model" | "Optimized YOLO (PyTorch → ONNX, 3x speedup), deployed on AWS ECS at $30/month" |
+| "Achieved 85% accuracy" | "Achieved 85% accuracy, but real-world was 30%—here's why + root cause analysis" |
+| "Used LangChain" | "Built multi-agent system, debugged class collapse (+221% F1), eliminated overfitting" |
+
+**I document:**
+- ✅ Trade-offs (speed vs accuracy, cost vs performance)
+- ✅ Failed attempts (what didn't work + why)
+- ✅ Systematic debugging (class collapse, overfitting, distribution shift)
+- ✅ Business impact (95% time savings, $200K/year cost reduction)
+- ✅ Production concerns (monitoring, bias detection, scalability)
+
+---
+
+## 🛠️ Technical Skills
+
+### Languages & Core
+`Python` `SQL` `JavaScript` `TypeScript`
+
+### ML/DL Frameworks
+`TensorFlow` `Keras` `PyTorch` `Scikit-learn` `ONNX Runtime`
+
+### Computer Vision
+`OpenCV` `YOLOv8` `CNNs` `Vision Transformers` `Object Detection`
+
+### NLP & LLMs
+`Transformers` `LangChain` `RAG` `Prompt Engineering` `LlamaIndex` `Qwen` `GPT-4`
+
+### Vector Databases & Search
+`ChromaDB` `FAISS` `Semantic Search` `Hybrid Search` `Embeddings`
+
+### MLOps & Deployment
+`FastAPI` `Docker` `AWS ECS` `Streamlit` `Gradio` `Vercel` `Render`
+
+### Cloud & Tools
+`AWS (EC2, ECS, ECR)` `Git` `Jupyter` `Linux` `VS Code`
 
 ---
 
 ## 🏆 Achievements
 
 🎖️ **UK Global Talent Visa** - Recognized as exceptional talent in digital technology  
-📰 **National Media Coverage** - Research featured in Vanguard News and other publications  
-🎓 **MSc Merit Degree** - Advanced Computer Science from University of Sussex  
-🚀 **Production Deployments** - 2 live ML systems with full documentation  
-💼 **Industry Experience** - Contributing to commercial AI projects at Digisoft CV
+📰 **National Media Coverage** - AI research featured in Vanguard News (Nigeria)  
+🎓 **MSc Advanced Computer Science** - Merit, University of Sussex  
+🚀 **5 Production Deployments** - Live systems with 24/7 uptime  
+💼 **Computer Vision Engineer** - Digisoft CV Ltd (Commercial ML projects)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Yunusa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yunusajib&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yunusajib&layout=compact&theme=radical&hide_border=true&langs_count=8)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yunusajib&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+## 🎯 What I'm Working On
+
+- 🔨 Building MLOps pipeline for model monitoring and automated retraining
+- 🚀 Fine-tuning LLMs for domain-specific tasks (legal, medical)
+- 📊 Contributing to open-source ML libraries
+- 📖 Learning production ML systems at scale (Kubernetes, model versioning)
+- 🎓 Preparing for AWS Machine Learning Specialty certification
+
+---
+
+## 📝 Recent Writing & Talks
+
+📺 **[RAG System Deep-Dive: From 72% → 94% Citation Accuracy](https://your-blog-link)**  
+_How prompt engineering and hybrid search improved retrieval precision_
+
+🎥 **[Debugging ML Systems: Fixing Class Collapse in Production](https://your-youtube-link)**  
+_Case study: 2/5 classes predicted → 5/5 classes (+221% F1)_
+
+📰 **[AI Tool for Campus Security - Featured in Vanguard News](https://your-media-link)**  
+_Vision Transformer application for real-world security systems_
+
+---
+
+## 💼 Professional Experience
+
+### Computer Vision Engineer @ Digisoft CV Ltd
+*2024 - Present | Newcastle upon Tyne, UK*
+
+- Developing production CV systems for commercial clients
+- Building MLOps pipelines for model deployment and monitoring
+- Optimizing model inference (PyTorch → ONNX, 3x speedup)
+
+### ML Researcher @ Federal College of Education (Technical)
+*2019 - 2023 | Potiskum, Nigeria*
+
+- Conducted AI research on Vision Transformers for security applications
+- Gained national media recognition (featured in Vanguard News)
+- Published research on AI applications in real-world systems
+
+---
+
+## 🌍 Open to Opportunities
+
+I'm actively seeking **ML Engineer**, **Computer Vision Engineer**, or **AI Research** roles in the **UK** (I hold a Global Talent Visa) or **remote positions worldwide**.
+
+**What I bring:**
+- ✅ Production ML experience (5 live deployments)
+- ✅ Systematic problem-solving (debug class collapse, overfitting, bias)
+- ✅ Business-focused mindset (quantify ROI, cost optimization)
+- ✅ Strong communication (technical depth + clear documentation)
+- ✅ Continuous learning (MLOps, LLM fine-tuning, scalable systems)
+
+**Ideal role:**
+- Building production ML systems (not just research)
+- Solving real business problems (healthcare, legal, finance)
+- Working with modern ML stack (PyTorch, FastAPI, Docker, AWS)
+- Team that values systematic iteration and honest evaluation
 
 ---
 
 ## 📫 Let's Connect
 
-- 💼 **LinkedIn:** [linkedin.com/in/yunusajibrin](https://linkedin.com/in/yunusajibrin)
-- 🌐 **Portfolio:** [yunusajib.github.io/my-portfolio](https://yunusajib.github.io/my-portfolio)
-- 📧 **Email:** yunusajib01@gmail.com
-- 🎥 **YouTube:** [Watch my project demos](https://youtube.com/@yunusajib)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yunusajibrin)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=github)](https://yunusajib.github.io/my-portfolio)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:yunusajib01@gmail.com)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch-red?style=for-the-badge&logo=youtube)](https://youtube.com/your-channel)
+
+</div>
 
 ---
 
-## 💡 Fun Facts
+## 💡 Philosophy
 
-- 🎯 Transitioned from self-employed IT services to ML engineering
-- 🌍 Relocated from Nigeria to UK to pursue advanced ML research
-- 📚 Passionate about making AI accessible through clear documentation
-- 🤝 Love mentoring students in machine learning fundamentals
-- ⚡ Believe in learning by building - all my projects are production-focused
+> **"Test accuracy is necessary but insufficient. I build systems that work in production, not just on test sets."**
 
----
-
-## 📈 Profile Views
-
-![](https://komarev.com/ghpvc/?username=yunusajib&color=blueviolet&style=flat-square)
+I believe in:
+- 🔍 Systematic debugging over random hyperparameter tuning
+- 📊 Quantified impact over vague claims
+- ⚠️ Honest evaluation over hiding failures
+- 🚀 Production readiness over academic benchmarks
+- 💼 Business value over technical complexity
 
 ---
 
-### 🌟 Support My Work
+## 🌟 Support My Work
 
-If you find my projects useful, consider:
-- ⭐ Starring my repositories
-- 🐛 Reporting issues or suggesting features
-- 🤝 Contributing to open-source projects
-- 📢 Sharing with others who might benefit
+If you find my projects valuable:
 
----
-
-**💻 "Building the future, one model at a time"** 
-
-*Open to opportunities in ML Engineering, AI Research, and Computer Vision roles in the UK and remote positions worldwide.*
+⭐ Star repositories that helped you  
+🐛 Open issues or suggest improvements  
+🤝 Contribute to open-source projects  
+📢 Share with others in the ML community
 
 ---
 
-<!-- 
+<div align="center">
+
+### 💻 "Building production ML systems, one systematic iteration at a time"
+
+![Profile Views](https://komarev.com/ghpvc/?username=yunusajib&color=brightgreen&style=for-the-badge)
+
+</div>
